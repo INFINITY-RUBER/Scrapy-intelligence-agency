@@ -3,8 +3,8 @@ let = $accordion = document.getElementById("accordion");
 let ciaData = null;
 
 fetch(
-  "./cia.json"
-  // "https://app.scrapinghub.com/api/v2/datasets/kdybI1E79Ww/download?format=json"
+  // "./cia.json"
+  "https://app.zyte.com/api/v2/datasets/pKwUePHFGYU/download?format=json"
   
 )
   .then((response) => {
